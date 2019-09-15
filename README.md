@@ -12,9 +12,10 @@ This repo serves as a resource for any developers curious about [state machines]
 ## Current Examples
 
 ## Future Examples
-- Todos
 - Authentication/authorization flow
-- Medium-like article creation/updating 
-- Ticket selection and payment flow
 - Trivia game
+- Welcome/intro flow
+- Todos
+- Ticket selection and payment flow
 - Stepped form/wizard
+- Medium-like article creation/updating 
