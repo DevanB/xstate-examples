@@ -16,20 +16,22 @@ const Main = tw.main`z-20 w-11/12 h-auto max-h-screen overflow-y-scroll m-4 flex
 
 function App() {
   const [current, send] = useMachine(machine)
-  return (
-    <AppWrapper>
-      <GlobalStyle />
-      <Main>
-        {current.matches('welcome') ? (
-          <WelcomeScreen startQuiz={() => send('START_QUIZ')} />
-        ) : current.matches('loading') ? (
-          <LoadingScreen />
-        ) : current.matches('failure') ? (
+
+  const renderScreen = () => {
+    switch (current.value) {
+      case 'welcome':
+        return <WelcomeScreen startQuiz={() => send('START_QUIZ')} />
+      case 'loading':
+        return <LoadingScreen />
+      case 'failure':
+        return (
           <FailureScreen
             retry={() => send('RETRY')}
             startOver={() => send('START_OVER')}
           />
-        ) : current.matches('quiz') ? (
+        )
+      case 'quiz':
+        return (
           <QuizScreen
             answerFalse={() => send({type: 'ANSWER_FALSE', answer: false})}
             answerTrue={() => send({type: 'ANSWER_TRUE', answer: true})}
@@ -39,15 +41,25 @@ function App() {
             }
             totalQuestions={current.context.questions.length}
           />
-        ) : current.matches('results') ? (
+        )
+      case 'results':
+        return (
           <ResultsScreen
             playAgain={() => send('PLAY_AGAIN')}
             questions={current.context.questions}
             totalCorrectAnswers={current.context.totalCorrectAnswers}
             totalQuestions={current.context.questions.length}
           />
-        ) : null}
-      </Main>
+        )
+      default:
+        return null
+    }
+  }
+
+  return (
+    <AppWrapper>
+      <GlobalStyle />
+      <Main>{renderScreen()}</Main>
     </AppWrapper>
   )
 }
