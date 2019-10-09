@@ -1933,7 +1933,7 @@
   resolved "https://registry.yarnpkg.com/@xstate/react/-/react-0.7.1.tgz#36d2143ba0d979017efa3c9566894c32cf5de0ee"
   integrity sha512-6LKbMCWPtLfKL7Ph8E781qoKmypSPGS5e7e+LkTK/nhRpFcj6n3MfCl96mNWsdYMr7tb8ISQDZcxI+Ou0BpurQ==
 
-"@xstate/test@^0.1.0":
+"@xstate/test@0.1.0":
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@xstate/test/-/test-0.1.0.tgz#b43eceb1b6f88acfac56c2d02d66464442921513"
   integrity sha512-6RT1jfEU8v5o5fa4nmNVX19KCRcB0YZo8qboy8LWMoy4Rpp6Noyu4LjLUnCtiPCBbFdf5RK3dieWb+5pqxjfGQ==
