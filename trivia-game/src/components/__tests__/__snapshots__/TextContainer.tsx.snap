@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextContainer/> should match snapshot 1`] = `
+<div>
+  <div
+    class="TextContainer-sc-15gwe8g-0 eWJrqh"
+  />
+</div>
+`;

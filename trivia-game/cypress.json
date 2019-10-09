@@ -1,0 +1,10 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "integrationFolder": "cypress/e2e",
+  "reporter": "mocha-multi-reporters",
+  "reporterOptions": {
+    "configFile": "config.json"
+  },
+  "supportFile": "cypress/support/index.ts",
+  "ignoreTestFiles": "**/*.{js,ts}"
+}

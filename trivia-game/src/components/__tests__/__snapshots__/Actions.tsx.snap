@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Actions/> should match snapshot 1`] = `
+<div>
+  <div
+    class="Actions-sc-1u0w5ed-0 cZbJYt"
+  />
+</div>
+`;

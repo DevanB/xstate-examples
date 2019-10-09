@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<H1/> should match snapshot 1`] = `
+<div>
+  <h1
+    class="Typography__H1-sc-1qcilcn-0 kUFxaM"
+  />
+</div>
+`;
+
+exports[`<P/> should match snapshot 1`] = `
+<div>
+  <p
+    class="Typography__P-sc-1qcilcn-1 hAyRKx"
+  />
+</div>
+`;
