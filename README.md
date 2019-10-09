@@ -24,3 +24,8 @@ This repo serves as a resource for any developer curious about [state machines](
 - [Guards](https://xstate.js.org/docs/guides/guards.html): [Trivia Game](/trivia-game/src/machine.ts#L50)
 - [Transient Transitions](https://xstate.js.org/docs/guides/transitions.html#transient-transitions): [Trivia Game](/trivia-game/src/machine.ts#L47-L51)
 - [Invoking Services (Promises)](https://xstate.js.org/docs/guides/communication.html#the-invoke-property): [Trivia Game](/trivia-game/src/machine.ts#L22-L37)
+
+## Handy Resources
+- [Xstate documentation](https://xstate.js.org)
+- [Statecharts community](https://spectrum.chat/statecharts)
+- [World of Statecharts](https://statecharts.github.io)
