@@ -24,7 +24,7 @@ const machine = Machine<AppMachineContext, AppMachineSchema, AppMachineEvent>(
           src: 'fetchAndNormalizeQuizData',
           onDone: {
             target: 'quiz',
-            actions: assign<AppMachineContext>({
+            actions: assign({
               questions: (_, event) => event.data,
             }),
           },
