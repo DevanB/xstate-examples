@@ -12594,10 +12594,10 @@ xregexp@4.0.0:
   resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-4.0.0.tgz#e698189de49dd2a18cc5687b05e17c8e43943020"
   integrity sha512-PHyM+sQouu7xspQQwELlGwwd05mXUFqwFYfqPO0cC7x4fxyHnnuetmQr6CjJiafIDoH4MogHb9dOoJzR/Y4rFg==
 
-xstate@4.7.0-rc4:
-  version "4.7.0-rc4"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.7.0-rc4.tgz#b12a60fecee749abedcbc55366e7bab485f199f2"
-  integrity sha512-rOZewMfOxizPrFfqbbAVJcJVVUTjMO93n8g0hgyKIPLM1mAfsLhVByT0W77U4d8x9Rv+IkyWolercxNTs/KItQ==
+xstate@4.7.0-rc5:
+  version "4.7.0-rc5"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.7.0-rc5.tgz#e5fdc6b46c67b4997934930d3fc2b678e66a1aff"
+  integrity sha512-vzVoXii9TJZ3+vBpOFnipBkMpwrRECkplot2wuqkmShgVRbqqV3GxTUfj5UVGiP8lPDmtCz33dlRHacdAQdHtg==
 
 xstate@^4.5.0:
   version "4.6.7"
