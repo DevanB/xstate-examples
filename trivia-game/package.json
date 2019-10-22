@@ -25,8 +25,8 @@
   "dependencies": {
     "@xstate/react": "0.7.1",
     "lean-he": "2.1.2",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
     "react-scripts": "3.2.0",
     "styled-components": "4.4.0",
     "tailwind.macro": "1.0.0-alpha.10",
