@@ -28,7 +28,7 @@
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "react-scripts": "3.2.0",
-    "styled-components": "4.4.0",
+    "styled-components": "4.4.1",
     "tailwind.macro": "1.0.0-alpha.10",
     "typescript": "3.6.4",
     "xstate": "4.7.0-rc5"
