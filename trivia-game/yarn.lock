@@ -12627,10 +12627,10 @@ xregexp@4.0.0:
   resolved "https://registry.yarnpkg.com/xregexp/-/xregexp-4.0.0.tgz#e698189de49dd2a18cc5687b05e17c8e43943020"
   integrity sha512-PHyM+sQouu7xspQQwELlGwwd05mXUFqwFYfqPO0cC7x4fxyHnnuetmQr6CjJiafIDoH4MogHb9dOoJzR/Y4rFg==
 
-xstate@4.7.0-rc5:
-  version "4.7.0-rc5"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.7.0-rc5.tgz#e5fdc6b46c67b4997934930d3fc2b678e66a1aff"
-  integrity sha512-vzVoXii9TJZ3+vBpOFnipBkMpwrRECkplot2wuqkmShgVRbqqV3GxTUfj5UVGiP8lPDmtCz33dlRHacdAQdHtg==
+xstate@4.7.0-rc6:
+  version "4.7.0-rc6"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.7.0-rc6.tgz#fa91810586ad0222ac00128ec2e0b889a5bcc937"
+  integrity sha512-dojJ2P8jd1HZwpW1v0L7Eoi+uaWID6chsh41mebdT/di20TML4o0Svt4K17vDLIKeA92E5c2UJOsfRQ1B6CB3w==
 
 xstate@^4.5.0:
   version "4.6.7"
