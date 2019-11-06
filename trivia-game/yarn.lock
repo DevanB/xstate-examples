@@ -1948,10 +1948,10 @@
   resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-1.0.0-rc1.1.tgz#02075ecf32720d84f71b58beb1aa5fba67e73f2a"
   integrity sha512-ywxKr3jWECMZ+Y1kJI9PNB5HzHmAAb1NWgQFmnN/q9F3UgepNlALOI1SjP+Q3ZyDSMl6NrvPSS4e9zIkbPAJqg==
 
-"@xstate/react@0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@xstate/react/-/react-0.8.0.tgz#7435f949d1211bdda61569f890801b05322385af"
-  integrity sha512-cN9YZr8eh0Pp28qID55BuYyvUBA88RUjhHF9iZGnhnIHoviXQ+Ya1yewz1+Qvekyti3aiggtVQny6oDqlDNzYg==
+"@xstate/react@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@xstate/react/-/react-0.8.1.tgz#df200547cca24c909572b7aef1ddab8bca3a0603"
+  integrity sha512-8voZm4GX3x70lNQVvoGedoObPYapkQIbgMhE+xOQEsm8Ait4Zto6R01SZ6WJD4qvLl8JPV6uq96OcFRdEsVESg==
 
 "@xstate/test@0.1.0":
   version "0.1.0"
