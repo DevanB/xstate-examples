@@ -1931,12 +1931,10 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@xstate/graph@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-0.2.1.tgz#06b2c0f9a320768269e7fb6071b8063ee7c93e3f"
-  integrity sha512-uR5S3YjQaPvOusCyrPG3Tv0by3Tgxnmr5ZH8MDHTNwnDqAApDx2CKIPkKYMSy8J0UbAlwfCvJiiJvJpaAuv1pQ==
-  dependencies:
-    xstate "^4.5.0"
+"@xstate/graph@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-1.0.0.tgz#657168ce35001bb915d419dc2bea9cd89d17b038"
+  integrity sha512-QinBh+O7CEqqb//SSeJU++tdKex635Hzx0xCgF+yYtDs0RIx99qscRJXlIr2mjaV1g0c/j9wAgc/ZChd6mzgDA==
 
 "@xstate/graph@^1.0.0-rc1.1":
   version "1.0.0-rc1.1"
@@ -12626,11 +12624,6 @@ xstate@4.7.0-rc6:
   version "4.7.0-rc6"
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.7.0-rc6.tgz#fa91810586ad0222ac00128ec2e0b889a5bcc937"
   integrity sha512-dojJ2P8jd1HZwpW1v0L7Eoi+uaWID6chsh41mebdT/di20TML4o0Svt4K17vDLIKeA92E5c2UJOsfRQ1B6CB3w==
-
-xstate@^4.5.0:
-  version "4.6.7"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.6.7.tgz#1f325df07d75676c90d65b17a3a56692f259fd41"
-  integrity sha512-mqgtH6BXOgjOHVDxZPyW/h6QUC5kfEggh5IN8uOitjzrdCScE/a/cwcRvgcH8CGAXYReDNvasOKD0aFBWAZ1fg==
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"
