@@ -7,7 +7,7 @@ transient functions, and invoking services.
 
 ## Running Locally
 
-1. After cloning and navigating into the `trivia-game` directory, execute:
+1. After cloning and navigating into the `trivia-game-react` directory, execute:
 
 ```
 yarn && yarn test
@@ -19,7 +19,7 @@ or
 npm install && npm t
 ```
 
-This will install dependencies and run tests to verify not issues
+This will install dependencies and run tests to verify no issues
 
 2. Start the application by executing:
 

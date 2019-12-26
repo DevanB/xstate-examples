@@ -1,24 +1,34 @@
-# trivia-game-vue
+# Trivia Game
 
-## Project setup
-```
-yarn install
-```
+This example showcases several state machine concepts including guards,
+transient functions, and invoking services.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+[Trivia Game machine visualized](https://xstate.js.org/viz/?gist=3abe97296e6d6cebcbda9c903d6da068)
 
-### Compiles and minifies for production
+## Running Locally
+
+1. After cloning and navigating into the `trivia-game-vue` directory, execute:
+
 ```
-yarn build
+yarn && yarn test
 ```
 
-### Lints and fixes files
+or
+
 ```
-yarn lint
+npm install && npm t
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This will install dependencies and run tests to verify no issues
+
+2. Start the application by executing:
+
+```
+yarn start
+```
+
+or
+
+```
+npm start
+```
