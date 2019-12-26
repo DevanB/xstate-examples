@@ -6,10 +6,10 @@
       <P>You can retry loading the game or start over.</P>
     </TextContainer>
     <Actions>
-      <Button @click="retry" data-testid='retry-button'>
+      <Button :onClick="retry" data-testid='retry-button'>
         Retry
       </Button>
-      <Button @click="startOver" data-testid='start-over-button'>
+      <Button :onClick="startOver" data-testid='start-over-button'>
         Start Over
       </Button>
     </Actions>
@@ -34,19 +34,13 @@ export default {
     P,
     TextContainer
   },
-  props: {
-    retryFunc: { type: Function },
-    startOverFunc: { type: Function },
-  },
   methods: {
     retry() {
-      this.retryFunc()
+      this.$emit('retry')
     },
     startOver() {
-      this.startOverFunc()
+      this.$emit('startOver')
     }
   }
 }
-
-//retry, startOver
 </script>

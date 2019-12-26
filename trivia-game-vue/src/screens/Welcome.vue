@@ -5,7 +5,7 @@
       <P>You will be presented with 10 true or false questions.</P>
       <P>Can you score 100%?</P>
     </TextContainer>
-    <Button @click="startQuiz" data-testid='begin-button'>
+    <Button :onClick="startQuiz" data-testid='begin-button'>
       Begin
     </Button>
   </Container>
@@ -17,11 +17,9 @@ import Container from '../components/Container.vue'
 import H1 from '../components/H1.vue'
 import P from '../components/P.vue'
 import TextContainer from '../components/TextContainer.vue'
+
 export default {
   name: "Welcome",
-  props: {
-    startQuizFunc: { type: Function },
-  },
   components: {
     Button,
     Container,
@@ -31,7 +29,7 @@ export default {
   },
   methods: {
     startQuiz() {
-      this.startQuizFunc()
+      this.$emit('startQuiz')
     }
   }
 }

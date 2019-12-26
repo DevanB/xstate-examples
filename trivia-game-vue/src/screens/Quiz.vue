@@ -1,20 +1,20 @@
 <template>
   <Container>
-    <H1 data-testid='quiz-header'>{question.category}</H1>
-    <Content>
-      <QuestionText>{question.question}</QuestionText>
+    <H1 data-testid="quiz-header">{{question.category}}</H1>
+    <Container class="content">
+      <P class="questionText">{{question.question}}</P>
       <Actions>
-        <Button data-testid='answer-true-button'>
+        <Button :onClick="answerTrue" data-testid="answer-true-button">
           True
         </Button>
-        <Button data-testid='answer-false-button'>
+        <Button :onClick="answerFalse" data-testid="answer-false-button">
           False
         </Button>
       </Actions>
-    </Content>
-    <QuestionsCount>
-      {currentQuestionNumber} of {totalQuestions}
-    </QuestionsCount>
+    </Container>
+    <P class="questionsCount">
+      {{ currentQuestionNumber }} of {{ totalQuestions }}
+    </P>
   </Container>
 </template>
 
@@ -27,21 +27,52 @@ import P from '../components/P.vue';
 
 export default {
   name: "Quiz",
+  props: {
+    currentQuestionNumber: { type: Number },
+    question: { type: Object },
+    totalQuestions: { type: Number }
+  },
   components: {
     Actions,
     Button,
     Container,
     H1,
     P
+  },
+  methods: {
+    answerFalse() {
+      this.$emit('answerFalse')
+    },
+    answerTrue() {
+      this.$emit('answerTrue')
+    }
   }
 }
-
-// answerFalse, answerTrue, currentQuestionNumber, question, totalQuestions
-/* const QuestionText = tw(P)`w-full md:w-4/5 mb-2 text-center` */
-/* const QuestionsCount = tw(P)`text-sm mt-2` */
-/* const Content = tw(Container)`w-full md:w-3/4 p-0 md:p-5` */
 </script>
 
 <style>
+.questionText {
+  @apply w-full mb-2 text-center;
+}
+
+.questionsCount {
+  @apply text-sm mt-2;
+}
+
+.content {
+  @apply w-full p-0;
+}
+
+@screen md {
+  .content {
+    @apply w-3/4 p-5;
+  }
+}
+
+@screen md {
+  .questionText {
+    @apply w-3/4;
+  }
+}
 </style>
 

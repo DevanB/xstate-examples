@@ -1,21 +1,33 @@
 <template>
-  <div>
-    {{ current.value }}
-    <div v-if="current.matches('welcome')">
-      <Welcome :startQuizFunc="send.bind('START_QUIZ')"/>
-    </div>
-    <div v-else-if="current.matches('loading')">
-      <Loading />
-    </div>
-    <div v-else-if="current.matches('failure')">
-      <Failure :retryFunc="send('RETRY')" :startOverFunc="send('START_OVER')"/>
-    </div>
-    <div v-else-if="current.matches('quiz')">
-      <p>Quiz</p>
-    </div>
-    <div v-else-if="current.matches('results')">
-      <p>Results</p>
-    </div>
+  <div class="appWrapper">
+    <main class="main">
+      <div v-if="current.matches('welcome')">
+        <Welcome @startQuiz="send('START_QUIZ')"/>
+      </div>
+      <div v-else-if="current.matches('loading')">
+        <Loading />
+      </div>
+      <div v-else-if="current.matches('failure')">
+        <Failure @retry="send('RETRY')" @startOver="send('START_OVER')"/>
+      </div>
+      <div v-else-if="current.matches('quiz')">
+        <Quiz
+          @answerFalse="send({ type: 'ANSWER_FALSE', answer: false })"
+          @answerTrue="send({ type: 'ANSWER_TRUE', answer: true })"
+          :currentQuestionNumber="current.context.currentQuestionDisplay"
+          :question="current.context.questions[current.context.currentQuestion]"
+          :totalQuestions="current.context.questions.length"
+        />
+      </div>
+      <div v-else-if="current.matches('results')">
+        <Results 
+          @playAgain="send('PLAY_AGAIN')"
+          :questions="current.context.questions"
+          :totalCorrectAnswers="current.context.totalCorrectAnswers"
+          :totalQuestions="current.context.questions.length"
+        />
+      </div>
+    </main>
   </div>
 </template>
 
@@ -23,15 +35,19 @@
 import { interpret } from "xstate";
 import machine from "./machine";
 import Failure from "./screens/Failure.vue";
-import Welcome from "./screens/Welcome.vue";
 import Loading from "./screens/Loading.vue";
+import Quiz from "./screens/Quiz.vue";
+import Results from "./screens/Results.vue";
+import Welcome from "./screens/Welcome.vue";
 
 export default {
   name: "app",
   components: {
     Failure,
-    Welcome,
-    Loading
+    Loading,
+    Quiz,
+    Results,
+    Welcome
   },
   created() {
     this.machineService
@@ -52,3 +68,25 @@ export default {
   }
 };
 </script>
+
+<style>
+.appWrapper {
+  @apply min-h-screen min-w-full h-screen w-screen flex justify-center items-center bg-gray-200;
+}
+
+.main {
+  @apply z-20 w-11/12 h-auto max-h-screen overflow-y-scroll m-4 flex flex-col items-center bg-white rounded shadow;
+}
+
+@screen md {
+  .main {
+    @apply w-3/4 m-0;
+  }
+}
+
+@screen lg {
+  .main {
+    @apply w-1/2;
+  }
+}
+</style>

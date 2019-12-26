@@ -3,19 +3,22 @@
     <H1 data-testid='results-header'>
       You scored
       <br />
-      {totalCorrectAnswers} / {totalQuestions}
+      {{totalCorrectAnswers}} / {{totalQuestions}}
     </H1>
-    <QuestionResults>
-      {questions.map(question => (
-        <Result key={question.question}>
-          <Icon>
-            {question.correct === true ? <CorrectIcon /> : <WrongIcon />}
-          </Icon>{' '}
-          {question.question}
-        </Result>
-      ))}
-    </QuestionResults>
-    <Button data-testid='play-again-button'>
+    <ul class="questionsResult">
+      <li v-for="question in questions" class="result" v-bind:key="question.question">
+        <span class="icon">
+          <div v-if="question.correct === true">
+            <CorrectIcon />
+          </div>
+          <div v-else-if="question.correct === false">
+            <WrongIcon />
+          </div>
+        </span> 
+        {{question.question}}
+      </li>
+    </ul>
+    <Button :onClick="playAgain" data-testid='play-again-button'>
       Play Again
     </Button>
   </Container>
@@ -36,14 +39,30 @@ export default {
     CorrectIcon,
     H1,
     WrongIcon
+  },
+  props: {
+    questions: { type: Array },
+    totalCorrectAnswers: { type: Number },
+    totalQuestions: { type: Number },
+  },
+  methods: {
+    playAgain() {
+      this.$emit('playAgain')
+    }
   }
 }
-
-// questions, playAgain, totalCorrectAnswers, totalQuestions
-/* const QuestionResults = tw.ul`w-3/4 my-4` */
-/* const Icon = tw.span`mr-4` */
-/* const Result = tw.li`flex mb-4 items-center` */
 </script>
 
 <style>
+.questionResults {
+  @apply w-3/4 my-4;
+}
+
+.icon {
+  @apply mr-4;
+}
+
+.result {
+  @apply flex mb-4 items-center;
+}
 </style>

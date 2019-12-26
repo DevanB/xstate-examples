@@ -1,6 +1,6 @@
 import {fetchQuizData, normalizeQuizData} from '.'
 
-export const fetchAndNormalizeQuizData = () =>
+export const fetchAndNormalizeQuizData = () => 
   new Promise(async (resolve, reject) => {
     try {
       const data = await fetchQuizData()

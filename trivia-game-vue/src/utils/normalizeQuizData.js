@@ -1,6 +1,6 @@
 import decode from 'lean-he/decode'
 
-export const normalizeQuizData = data =>
+export const normalizeQuizData = data => 
   data.reduce(
     (acc, obj) => [
       ...acc,
