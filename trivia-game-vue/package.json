@@ -15,9 +15,9 @@
     "xstate": "4.7.3"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "4.1.1",
-    "@vue/cli-plugin-eslint": "4.1.1",
-    "@vue/cli-service": "4.1.1",
+    "@vue/cli-plugin-babel": "4.1.2",
+    "@vue/cli-plugin-eslint": "4.1.2",
+    "@vue/cli-service": "4.1.2",
     "babel-eslint": "10.0.3",
     "eslint": "5.16.0",
     "eslint-plugin-vue": "5.2.3",
