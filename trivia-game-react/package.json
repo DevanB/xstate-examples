@@ -31,7 +31,7 @@
     "styled-components": "4.4.1",
     "tailwind.macro": "1.0.0-alpha.10",
     "typescript": "3.7.4",
-    "xstate": "4.7.5"
+    "xstate": "4.7.6"
   },
   "devDependencies": {
     "@testing-library/cypress": "5.0.2",
