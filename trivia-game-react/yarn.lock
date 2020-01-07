@@ -2582,10 +2582,10 @@
   resolved "https://registry.yarnpkg.com/@xstate/react/-/react-0.8.1.tgz#df200547cca24c909572b7aef1ddab8bca3a0603"
   integrity sha512-8voZm4GX3x70lNQVvoGedoObPYapkQIbgMhE+xOQEsm8Ait4Zto6R01SZ6WJD4qvLl8JPV6uq96OcFRdEsVESg==
 
-"@xstate/test@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@xstate/test/-/test-0.2.1.tgz#60aa9a9a86820f0568a635ee93208215212975e5"
-  integrity sha512-DaPuxLxr++3BoWHRJaYftzRBmPsLLJVYM5zZoqmLY+tMyzRP9a9Y3pVvsrHjNtV/R9ZlVjVKqjKZtJAcce3dnA==
+"@xstate/test@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@xstate/test/-/test-0.3.0.tgz#366ffd9eb349a5244d8e6d085d85b86879f4bca7"
+  integrity sha512-s9QlyyER/ox606+Ihw0TlQBDniU+OIveS1VQtm56FL+kKbUQGHO0NTBXX33z18MjrFt2hmmjgehs3wHB0RQ6sg==
   dependencies:
     "@xstate/graph" "^1.0.0"
     chalk "^2.4.2"
