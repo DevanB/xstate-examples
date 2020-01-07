@@ -41,7 +41,7 @@
     "@types/node": "12.12.24",
     "@types/react": "16.9.17",
     "@types/react-dom": "16.9.4",
-    "@types/styled-components": "4.4.1",
+    "@types/styled-components": "4.4.2",
     "@xstate/graph": "1.0.0",
     "@xstate/test": "0.2.1",
     "commitizen": "4.0.3",
