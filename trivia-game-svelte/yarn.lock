@@ -18,13 +18,13 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@fullhuman/postcss-purgecss@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-2.0.4.tgz#0b53279aeec7801d7747f7d718b045623d727a5c"
-  integrity sha512-h1BohiFiVBuOEaG/t45u6kV4zBbS9FOvC7sXxFAa/cG/W9Cl5yGCzHne++/vWf4R4WyWJFInaV/fhLUAcXzMjg==
+"@fullhuman/postcss-purgecss@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-2.0.5.tgz#01ea0ac16ecc7ae8b24a4bcb6ef9f200765c7216"
+  integrity sha512-lWSnRiLfI3dGowZkPBfFOVkWlBP+Wk12u91mtjCTmA3hJ+d5+MyizVsTAOB1e52QJww6BRSD4g6XpknF+dEPnA==
   dependencies:
     postcss "7.0.26"
-    purgecss "^2.0.3"
+    purgecss "^2.0.5"
 
 "@polka/url@^0.5.0":
   version "0.5.0"
@@ -1218,10 +1218,10 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-purgecss@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-2.0.3.tgz#d49eccb10fd28892b841549159db841eea04288a"
-  integrity sha512-prjGGwr1OsBEUpO6zXI5yRx5SuMJxPTHEy0vSvfG8TSr4iFxGQaIRfiMOUVcWEtgjWG/gp77QFSbkPNi88iGgg==
+purgecss@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-2.0.5.tgz#b7aa3e3634704aa041d03f007504c303e8c6586e"
+  integrity sha512-VwQoDXImH0pabZ6ivLPCsWuRGd979NEzACaT/P3pWzDVCwHXSgXUM4QDbnMklMawU0r4MrCvdaORM84KJvsCIA==
   dependencies:
     commander "^4.0.0"
     glob "^7.0.0"
