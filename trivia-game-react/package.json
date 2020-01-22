@@ -39,7 +39,7 @@
     "@testing-library/react": "9.4.0",
     "@types/jest": "24.9.0",
     "@types/node": "13.1.8",
-    "@types/react": "16.9.17",
+    "@types/react": "16.9.18",
     "@types/react-dom": "16.9.5",
     "@types/styled-components": "4.4.2",
     "@xstate/graph": "1.0.0",
