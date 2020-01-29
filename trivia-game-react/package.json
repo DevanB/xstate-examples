@@ -34,7 +34,7 @@
     "xstate": "4.7.6"
   },
   "devDependencies": {
-    "@testing-library/cypress": "5.0.2",
+    "@testing-library/cypress": "5.1.0",
     "@testing-library/jest-dom": "5.0.2",
     "@testing-library/react": "9.4.0",
     "@types/jest": "24.9.0",
