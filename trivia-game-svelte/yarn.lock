@@ -1544,10 +1544,10 @@ svelte-xstate@^1.0.1:
     svelte "^3.12.1"
     xstate "^4.6.7"
 
-svelte@^3.12.1, svelte@^3.17.2:
-  version "3.17.2"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.17.2.tgz#37997f3f83410270c47df885829944aa2e251a18"
-  integrity sha512-Xg0rBuCeiJf94J02cNoUkm9eCJsispYcvN8j+lsLuVJBhioCYcaYFoOe27sjfemXsIu8s1FztdZuwwpc2kWmjg==
+svelte@^3.12.1, svelte@^3.18.2:
+  version "3.18.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.18.2.tgz#f136b9e169049f8bb6a364bd8b8f3b619ed957d9"
+  integrity sha512-jRk7jdYULb9V4Z+0BKlfofombmdIIQph4leojrOSHzvZBRmCredz7fZsJBiUDLO6h83XYekuLbwfy5zx1i95GQ==
 
 tailwindcss@1.1.4:
   version "1.1.4"
