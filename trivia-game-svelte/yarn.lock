@@ -1389,10 +1389,10 @@ ret@~0.1.10:
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
 
-rollup-plugin-livereload@^1.0.0:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-livereload/-/rollup-plugin-livereload-1.0.4.tgz#480919211c699db85a532dabe9aa29035578f9c1"
-  integrity sha512-nbnSP8Mj2mmLZkrf080z3PrdacmpAW6UkmgM+BWClcJ8MSsruPONGTwirhZaNNHjUYvkJ+iF5/pSk4g0KV2uVQ==
+rollup-plugin-livereload@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-livereload/-/rollup-plugin-livereload-1.1.0.tgz#75b31b8223717cc45b409fc938642f454dbbd5cb"
+  integrity sha512-A7/aMw97SUFVJRqD6tVSDkDYHTQY3wZFUVjpyuvq6GV1eR4tCcQtgUDyf6q3eQWff6K2rOfhhO3QxUPp9YN5PA==
   dependencies:
     livereload "0.8.0 || ^0.8.2"
 
