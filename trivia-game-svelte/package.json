@@ -16,7 +16,7 @@
     "svelte": "^3.20.1",
     "svelte-preprocess": "^3.7.1",
     "tailwindcss": "1.2.0",
-    "xstate": "4.8.0"
+    "xstate": "4.9.0"
   },
   "dependencies": {
     "sirv-cli": "^0.4.5",
