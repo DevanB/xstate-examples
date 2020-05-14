@@ -2681,12 +2681,7 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@xstate/graph@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-1.0.0.tgz#657168ce35001bb915d419dc2bea9cd89d17b038"
-  integrity sha512-QinBh+O7CEqqb//SSeJU++tdKex635Hzx0xCgF+yYtDs0RIx99qscRJXlIr2mjaV1g0c/j9wAgc/ZChd6mzgDA==
-
-"@xstate/graph@^1.1.0":
+"@xstate/graph@1.1.0", "@xstate/graph@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-1.1.0.tgz#827d21db610713fd9ac68fd53b8393b98481a8bf"
   integrity sha512-o9lxrZ45J6h8cSfbXsihtmLkuC3ACXpwWM2NUj8Gp1tOQ/ivQBnSBwWBeoG5UNoGM20tt7F++caU81rXgeSTFw==
