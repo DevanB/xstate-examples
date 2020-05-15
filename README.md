@@ -13,6 +13,7 @@ This repo serves as a resource for any developer curious about [state machines](
 - Trivia Game [React](/trivia-game-react) | [Vue](/trivia-game-vue) | [Svelte](/trivia-game-svelte)
 
 ## Future Examples
+- React Native "Simon Says" game
 - Authentication flow
 - Welcome/walkthrough flow
 - Todos
