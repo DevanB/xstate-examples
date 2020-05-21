@@ -12,7 +12,7 @@
     "lean-he": "2.1.2",
     "tailwindcss": "1.4.6",
     "vue": "2.6.11",
-    "xstate": "4.9.1"
+    "xstate": "4.10.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.3.1",
