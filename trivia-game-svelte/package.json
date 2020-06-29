@@ -19,7 +19,7 @@
     "xstate": "4.10.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.1",
+    "sirv-cli": "^1.0.2",
     "svelte-xstate": "^1.0.1"
   },
   "scripts": {
