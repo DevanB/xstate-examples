@@ -50,7 +50,7 @@
     "husky": "4.2.5",
     "is-ci-cli": "2.1.2",
     "jest-axe": "3.5.0",
-    "jest-junit": "11.0.1",
+    "jest-junit": "11.1.0",
     "jest-styled-components": "beta",
     "lint-staged": "10.2.11",
     "mocha": "8.0.1",
