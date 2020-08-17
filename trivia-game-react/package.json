@@ -43,7 +43,7 @@
     "@types/react-dom": "16.9.8",
     "@types/styled-components": "5.1.2",
     "@xstate/graph": "1.1.0",
-    "@xstate/test": "0.4.0",
+    "@xstate/test": "0.4.1",
     "commitizen": "4.1.2",
     "cypress": "4.12.1",
     "cz-conventional-changelog": "3.2.0",
