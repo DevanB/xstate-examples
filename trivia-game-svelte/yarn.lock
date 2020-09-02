@@ -1108,10 +1108,10 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-preprocess@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.1.2.tgz#82567bf5f6fdfa44ff42ef82ea32c1ddf3cc6c99"
-  integrity sha512-l665fccStg1W2BlD0MUfFLmbTCd2tIsSvj18IzfyAoJ46sZqqeT8DPuqpNyIJ//zvRZl2g7aHNzqYAH8FOCEqg==
+svelte-preprocess@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.2.0.tgz#72c5c232d42e49227e909f07985b67f9191bd3cf"
+  integrity sha512-UTDmvFiGhAL888TG+zyhcdN1Uy3kj++9Ue7MVJVBoNREHkecFZem7lsCARGIUgUZg7KfFqanD40Op3JAI7kFHA==
   dependencies:
     "@types/pug" "^2.0.4"
     "@types/sass" "^1.16.0"
