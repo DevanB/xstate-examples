@@ -49,7 +49,7 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "4.2.5",
     "is-ci-cli": "2.1.2",
-    "jest-axe": "3.5.0",
+    "jest-axe": "4.0.0",
     "jest-junit": "11.1.0",
     "jest-styled-components": "beta",
     "lint-staged": "10.3.0",
