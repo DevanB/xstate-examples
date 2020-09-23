@@ -7,7 +7,7 @@
     "@rollup/plugin-node-resolve": "^9.0.0",
     "@rollup/plugin-replace": "^2.3.3",
     "lean-he": "2.1.2",
-    "postcss": "^8.0.5",
+    "postcss": "^8.0.8",
     "postcss-load-config": "^2.1.1",
     "rollup": "^2.28.1",
     "rollup-plugin-livereload": "^2.0.0",
