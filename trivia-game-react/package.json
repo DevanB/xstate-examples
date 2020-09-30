@@ -23,7 +23,7 @@
     "validate": "lint-staged"
   },
   "dependencies": {
-    "@xstate/react": "1.0.0",
+    "@xstate/react": "1.0.1",
     "lean-he": "2.1.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
