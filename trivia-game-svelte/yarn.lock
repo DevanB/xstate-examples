@@ -1185,10 +1185,10 @@ svelte@^3.12.1, svelte@^3.29.0:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.29.0.tgz#80acac4254341ad8f3301e5ef03f4127ea967d96"
   integrity sha512-f+A65eyOQ5ujETLy+igNXtlr6AEjAQLYd1yJE1VwNiXMQO5Z/Vmiy3rL+zblV/9jd7rtTTWqO1IcuXsP2Qv0OA==
 
-tailwindcss@1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.9.0.tgz#19caaca94656e2d5f038fa46e754d91e152e9609"
-  integrity sha512-RJJ7SRtmm1jBXzOm5It50NAX76251yW+XWISb2Y+kxgqwcCHq4RDor7elzeUChl/dIFvUMDsHb7LfiGtLs3qtg==
+tailwindcss@1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.9.3.tgz#1f6c66026f0562ffcd7951e2d209c0ae4ffceae3"
+  integrity sha512-y640+ZQFeuKE9URSTd/rb1jb3LNWz2EpiOCQCV2Wm8fJ/zbKmuLUaQrztxNhF5JfFIJj/qUbQGMUpN8QI0A9kQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "^2.1.2"
     autoprefixer "^9.4.5"
