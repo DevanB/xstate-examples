@@ -37,7 +37,7 @@
     "@testing-library/cypress": "7.0.2",
     "@testing-library/jest-dom": "5.11.6",
     "@testing-library/react": "11.2.2",
-    "@types/jest": "26.0.16",
+    "@types/jest": "26.0.17",
     "@types/node": "14.14.10",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
