@@ -45,7 +45,7 @@
     "@xstate/graph": "1.3.0",
     "@xstate/test": "0.4.1",
     "commitizen": "4.2.2",
-    "cypress": "6.0.1",
+    "cypress": "6.1.0",
     "cz-conventional-changelog": "3.3.0",
     "husky": "4.3.0",
     "is-ci-cli": "2.1.2",
