@@ -1625,7 +1625,7 @@
   optionalDependencies:
     vue-loader-v16 "npm:vue-loader@^16.1.0"
 
-"@vue/cli-shared-utils@^4.5.10", "@vue/cli-shared-utils@^4.5.7", "@vue/cli-shared-utils@^4.5.9":
+"@vue/cli-shared-utils@^4.5.10", "@vue/cli-shared-utils@^4.5.7":
   version "4.5.10"
   resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.5.10.tgz#e3b84c38bba19c6d995278b15261da865790561c"
   integrity sha512-Lid6FflDqcvo/JBIBjUriAQ1RkQaKbBpzXSLEK/JmoKkQRHW/rRhDLGI1dEVyOLYnDEiL1m8o1xPJaplUUiXpA==
@@ -8936,10 +8936,10 @@ ws@^6.0.0, ws@^6.2.1:
   dependencies:
     async-limiter "~1.0.0"
 
-xstate@4.15.3:
-  version "4.15.3"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.15.3.tgz#9c8225cda3be2359c7d6d1d587e02fa5bf9bfff7"
-  integrity sha512-nf4zzLNs5W57stMZib9UG9PA5ywu89INsaXBMZf7iQxkYD9apbIOQcK8nu/iVZEDOVE+vR8GQnTaOg/8iDSK5Q==
+xstate@4.15.4:
+  version "4.15.4"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.15.4.tgz#3618c676b173f8cd005ad04aa072372f45f1c6b8"
+  integrity sha512-ENrtRFKUzCmM4NytTCuTJG0+YdibpKXNjBwspHkCzbiSVtANo96Ok0owDFLP4/t7IVCwpG0GbJkS8LqOGbwMuw==
 
 xtend@^4.0.0, xtend@^4.0.2, xtend@~4.0.1:
   version "4.0.2"
