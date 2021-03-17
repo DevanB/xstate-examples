@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/trivia-game-svelte"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/trivia-game-vue"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+- package-ecosystem: npm
+  directory: "/trivia-game-react"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
