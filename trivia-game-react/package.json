@@ -53,7 +53,7 @@
     "jest-junit": "12.1.0",
     "jest-styled-components": "beta",
     "lint-staged": "11.0.0",
-    "mocha": "8.4.0",
+    "mocha": "9.0.0",
     "mocha-junit-reporter": "2.0.0",
     "mocha-multi-reporters": "1.5.1",
     "prettier": "2.3.1",
