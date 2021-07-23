@@ -52,7 +52,7 @@
     "jest-axe": "5.0.1",
     "jest-junit": "12.2.0",
     "jest-styled-components": "beta",
-    "lint-staged": "11.0.1",
+    "lint-staged": "11.1.0",
     "mocha": "9.0.2",
     "mocha-junit-reporter": "2.0.0",
     "mocha-multi-reporters": "1.5.1",
