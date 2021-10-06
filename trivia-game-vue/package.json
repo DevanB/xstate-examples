@@ -8,7 +8,7 @@
     "start": "vue-cli-service serve"
   },
   "dependencies": {
-    "core-js": "3.18.0",
+    "core-js": "3.18.2",
     "lean-he": "2.1.2",
     "tailwindcss": "2.2.16",
     "vue": "2.6.14",
