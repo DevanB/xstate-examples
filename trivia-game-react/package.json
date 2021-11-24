@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@testing-library/cypress": "8.0.2",
-    "@testing-library/jest-dom": "5.15.0",
+    "@testing-library/jest-dom": "5.15.1",
     "@testing-library/react": "12.1.2",
     "@types/jest": "27.0.3",
     "@types/node": "16.11.9",
