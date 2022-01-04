@@ -8,7 +8,7 @@
     "@rollup/plugin-replace": "^3.0.1",
     "lean-he": "2.1.2",
     "postcss": "^8.4.5",
-    "postcss-load-config": "^3.1.0",
+    "postcss-load-config": "^3.1.1",
     "rollup": "^2.63.0",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-svelte": "^7.1.0",
