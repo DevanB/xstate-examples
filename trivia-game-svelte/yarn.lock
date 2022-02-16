@@ -1160,10 +1160,10 @@ ws@^6.2.1:
   dependencies:
     async-limiter "~1.0.0"
 
-xstate@4.30.0, xstate@^4.6.7:
-  version "4.30.0"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.30.0.tgz#d45a962821d761df389b427e39aeca143f4de832"
-  integrity sha512-haGWpXLfsIHPrOMXs5NFuAIvIgaiEBU9pnlXllIxJ0iwwLySXYYLsRY8GXb/zKW+LNoMtTjMXx1lAav/tI7eFQ==
+xstate@4.30.1, xstate@^4.6.7:
+  version "4.30.1"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.30.1.tgz#e1317a5fa1e3ace6fabc5938e8f20f97e2e2f81b"
+  integrity sha512-vNOk8iRfhtbl9/RVF6HJWbL+YfsfGLiee1tGm6cuDcPrSStsRvfAhLVxSPoePx5XBlCSYOXaweLStmrpk2rvhA==
 
 xtend@^4.0.2:
   version "4.0.2"
