@@ -12321,10 +12321,10 @@ xmlchars@^2.2.0:
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
 
-xstate@4.30.3:
-  version "4.30.3"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.30.3.tgz#e1b81bad0bb669b4411294961f286a338d52d8f0"
-  integrity sha512-ccFjxRKvLq5Fap9+Cc2barHjdEqcDMLZOnHKhslGPgOknM/GKku744Hixm7PzBfQolKQqi/oLQcYm6C5GCULyg==
+xstate@4.30.4:
+  version "4.30.4"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.30.4.tgz#148afcc08d4be72cbfb028a2eac47389c2557cc5"
+  integrity sha512-es0BoMP0LxYk8PeVOf6iABAJqiDclNTV+8owAiCzYz6HR8nqvRBBdchkPL/ek/DgYim1qGU4PzkJ0M0Ye5w5yA==
 
 xtend@^4.0.2:
   version "4.0.2"
