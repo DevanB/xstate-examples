@@ -3093,10 +3093,10 @@
     "@webassemblyjs/ast" "1.11.1"
     "@xtuc/long" "4.2.2"
 
-"@xstate/graph@1.4.1", "@xstate/graph@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-1.4.1.tgz#fb48e026b6217148756f17e63f2afd130fe6c99a"
-  integrity sha512-6C9+2JERHT5bTtnMuydKiN/R6hB3sYodVsiWZqUqsbbI4Ldt0nhW2MKL/Td1y+l6Ud/1i6W41uzUX8brF6yvWw==
+"@xstate/graph@1.4.2", "@xstate/graph@^1.4.1":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-1.4.2.tgz#14987fc1f6d4cf11dca31fe5e6cb14e802f7b299"
+  integrity sha512-XIh6opCf9ukXRj4dXe2fv2kwFFUl15B5Ob8ELNOOqDXB2BPyNwp6TaLe5KJn/na3gzC9B7LyOo+2d0dPkC8PWQ==
 
 "@xstate/react@2.0.1":
   version "2.0.1"

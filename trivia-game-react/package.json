@@ -42,7 +42,7 @@
     "@types/react": "17.0.39",
     "@types/react-dom": "17.0.13",
     "@types/styled-components": "5.1.24",
-    "@xstate/graph": "1.4.1",
+    "@xstate/graph": "1.4.2",
     "@xstate/test": "0.5.1",
     "commitizen": "4.2.4",
     "cypress": "9.5.1",
