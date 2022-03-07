@@ -6758,10 +6758,10 @@ ws@^8.4.2:
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.5.0.tgz#bfb4be96600757fe5382de12c670dab984a1ed4f"
   integrity sha512-BWX0SWVgLPzYwF8lTzEy1egjhS4S4OEAHfsO8o65WOVsrnSRGaSiUaa9e0ggGlkMTtBlmOpEXiie9RUcBO86qg==
 
-xstate@4.30.4:
-  version "4.30.4"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.30.4.tgz#148afcc08d4be72cbfb028a2eac47389c2557cc5"
-  integrity sha512-es0BoMP0LxYk8PeVOf6iABAJqiDclNTV+8owAiCzYz6HR8nqvRBBdchkPL/ek/DgYim1qGU4PzkJ0M0Ye5w5yA==
+xstate@4.30.5:
+  version "4.30.5"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.30.5.tgz#c2c6753542578bf15e707b759ebb671f55849410"
+  integrity sha512-iZhIoZP8Alq4qI8eN/iAYiBRLfLSbSdI29LYsgk2DUvAwMV2J9xGw6CUT2HcH+5Rp5G3XzG6ByRfRmJJ+eEuDQ==
 
 xtend@^4.0.2:
   version "4.0.2"
