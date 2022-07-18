@@ -44,7 +44,7 @@
     "@types/styled-components": "5.1.25",
     "@xstate/graph": "1.4.2",
     "@xstate/test": "0.5.1",
-    "commitizen": "4.2.4",
+    "commitizen": "4.2.5",
     "cypress": "10.3.0",
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.1",
