@@ -54,7 +54,7 @@
     "jest-styled-components": "beta",
     "lint-staged": "13.0.3",
     "mocha": "10.1.0",
-    "mocha-junit-reporter": "2.1.0",
+    "mocha-junit-reporter": "2.1.1",
     "mocha-multi-reporters": "1.5.1",
     "prettier": "2.7.1",
     "serve": "14.0.1",
