@@ -8580,10 +8580,10 @@ mkdirp@^1.0.4, mkdirp@~1.0.4:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-mocha-junit-reporter@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/mocha-junit-reporter/-/mocha-junit-reporter-2.1.1.tgz#5a7ab8c975473f43092aa4f4fed6bd5b0b980c7f"
-  integrity sha512-le1Z1uL6u7De/4uh0NQs+a7JledC8soZ4zZg/2IBpnigKDoyhmJ1GIImuV2m2QIlDYsgQ5AkyhVlH+zdYAiopw==
+mocha-junit-reporter@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/mocha-junit-reporter/-/mocha-junit-reporter-2.2.0.tgz#2663aaf25a98989ac9080c92b19e54209e539f67"
+  integrity sha512-W83Ddf94nfLiTBl24aS8IVyFvO8aRDLlCvb+cKb/VEaN5dEbcqu3CXiTe8MQK2DvzS7oKE1RsFTxzN302GGbDQ==
   dependencies:
     debug "^4.3.4"
     md5 "^2.3.0"
