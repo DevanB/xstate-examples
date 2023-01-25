@@ -57,7 +57,7 @@
     "mocha-junit-reporter": "2.2.0",
     "mocha-multi-reporters": "1.5.1",
     "prettier": "2.8.3",
-    "serve": "14.1.2",
+    "serve": "14.2.0",
     "start-server-and-test": "1.15.3"
   },
   "eslintConfig": {
