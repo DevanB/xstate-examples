@@ -128,6 +128,14 @@
     "@rollup/pluginutils" "^5.0.1"
     magic-string "^0.27.0"
 
+"@rollup/pluginutils@^4.1.0":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"
+  integrity sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==
+  dependencies:
+    estree-walker "^2.0.1"
+    picomatch "^2.2.2"
+
 "@rollup/pluginutils@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.0.1.tgz#63def51f5a76dadd984689d33c7f000164152a97"
@@ -385,12 +393,7 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-estree-walker@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.6.1.tgz#53049143f40c6eb918b23671d1fe3219f3a1b362"
-  integrity sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==
-
-estree-walker@^2.0.2:
+estree-walker@^2.0.1, estree-walker@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
   integrity sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==
@@ -724,7 +727,7 @@ picomatch@^2.0.4, picomatch@^2.2.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
 
-picomatch@^2.3.1:
+picomatch@^2.2.2, picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
@@ -836,11 +839,6 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-require-relative@^0.8.7:
-  version "0.8.7"
-  resolved "https://registry.yarnpkg.com/require-relative/-/require-relative-0.8.7.tgz#7999539fc9e047a37928fa196f8e1563dabd36de"
-  integrity sha1-eZlTn8ngR6N5KPoZb44VY9q9Nt4=
-
 resolve@^1.1.7, resolve@^1.22.1:
   version "1.22.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.1.tgz#27cb2ebb53f91abb49470a928bba7558066ac177"
@@ -869,13 +867,12 @@ rollup-plugin-livereload@^2.0.5:
   dependencies:
     livereload "^0.9.1"
 
-rollup-plugin-svelte@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-7.1.0.tgz#d45f2b92b1014be4eb46b55aa033fb9a9c65f04d"
-  integrity sha512-vopCUq3G+25sKjwF5VilIbiY6KCuMNHP1PFvx2Vr3REBNMDllKHFZN2B9jwwC+MqNc3UPKkjXnceLPEjTjXGXg==
+rollup-plugin-svelte@^7.1.2:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-svelte/-/rollup-plugin-svelte-7.1.2.tgz#266beab511b00ab1dff7706926c84051a155c8eb"
+  integrity sha512-CfU5C4lhVyN80GqtNod4IvsN1nYrcWS3C/T9+gWF+O31e4QwBPo6ubHlLnuQKYVBzC3qIGdERuyrbrvljLfN/A==
   dependencies:
-    require-relative "^0.8.7"
-    rollup-pluginutils "^2.8.2"
+    "@rollup/pluginutils" "^4.1.0"
 
 rollup-plugin-terser@^7.0.2:
   version "7.0.2"
@@ -886,13 +883,6 @@ rollup-plugin-terser@^7.0.2:
     jest-worker "^26.2.1"
     serialize-javascript "^4.0.0"
     terser "^5.0.0"
-
-rollup-pluginutils@^2.8.2:
-  version "2.8.2"
-  resolved "https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-2.8.2.tgz#72f2af0748b592364dbd3389e600e5a9444a351e"
-  integrity sha512-EEp9NhnUkwY8aif6bxgovPHMoMoNr2FulJziTndpt5H9RdwC47GSGuII9XxpSdzVGM0GWrNPHV6ie1LTNJPaLQ==
-  dependencies:
-    estree-walker "^0.6.1"
 
 rollup@^2.79.1:
   version "2.79.1"
