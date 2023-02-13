@@ -3176,10 +3176,10 @@
   resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-1.4.2.tgz#14987fc1f6d4cf11dca31fe5e6cb14e802f7b299"
   integrity sha512-XIh6opCf9ukXRj4dXe2fv2kwFFUl15B5Ob8ELNOOqDXB2BPyNwp6TaLe5KJn/na3gzC9B7LyOo+2d0dPkC8PWQ==
 
-"@xstate/react@3.1.2":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@xstate/react/-/react-3.1.2.tgz#f03fad60a0aeb8eb45d8c4a1f6abc7769ef1ef18"
-  integrity sha512-nMpYuBFieWoHaImAtsguwmQHY3WnRpfRFYtInn5zRKsfGkC2JILKfnH58fODUubwhSqq0qMiUqrlaklP7ZBUCw==
+"@xstate/react@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@xstate/react/-/react-3.2.0.tgz#02827566a3d2ed48ab0a2ab83af5076899682b4e"
+  integrity sha512-Oxz1WB3/Z9IHjrd2uCIQGjGA8P7UsTTPc3YuIbIsgDgfSntQuvvjR0rZlL9NKQltrCRTXvzGf/wI95wAc2u7Uw==
   dependencies:
     use-isomorphic-layout-effect "^1.0.0"
     use-sync-external-store "^1.0.0"
