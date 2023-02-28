@@ -58,7 +58,7 @@
     "mocha-multi-reporters": "1.5.1",
     "prettier": "2.8.4",
     "serve": "14.2.0",
-    "start-server-and-test": "1.15.5"
+    "start-server-and-test": "2.0.0"
   },
   "eslintConfig": {
     "extends": "react-app"
