@@ -15,7 +15,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "svelte": "^3.57.0",
     "svelte-preprocess": "^5.0.3",
-    "tailwindcss": "3.2.7",
+    "tailwindcss": "3.3.0",
     "xstate": "4.37.1"
   },
   "dependencies": {
