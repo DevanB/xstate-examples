@@ -25,7 +25,7 @@ const machine = Machine<AppMachineContext, AppMachineSchema, AppMachineEvent>(
           onDone: {
             target: 'quiz',
             actions: assign({
-              questions: (_, event) => event.data,
+              questions: (_: any, event: { data: unknown}) => event.data,
             }),
           },
           onError: {
@@ -70,7 +70,7 @@ const machine = Machine<AppMachineContext, AppMachineSchema, AppMachineEvent>(
         questions: [],
         totalCorrectAnswers: 0,
       }),
-      updateAnswer: assign((ctx, event: any) => ({
+      updateAnswer: assign((ctx: any, event: any) => ({
         questions: [
           ...ctx.questions.slice(0, ctx.currentQuestion),
           {
@@ -90,7 +90,7 @@ const machine = Machine<AppMachineContext, AppMachineSchema, AppMachineEvent>(
       })),
     },
     guards: {
-      allQuestionsAnswered: ctx => {
+      allQuestionsAnswered: (ctx: any) => {
         return (
           ctx.questions.filter(
             (question: any) => question.correct !== undefined,
