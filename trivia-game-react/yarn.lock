@@ -10967,10 +10967,10 @@ style-loader@^3.3.1:
   resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-3.3.1.tgz#057dfa6b3d4d7c7064462830f9113ed417d38575"
   integrity sha512-GPcQ+LDJbrcxHORTRes6Jy2sfvK2kS6hpSfI/fXhPt+spVzxF6LJ1dHLN9zIGmVaaP044YKaIatFaufENRiDoQ==
 
-styled-components@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-6.0.0.tgz#f42abb6bd8a9cfc21f16ddfe00513da939e054b6"
-  integrity sha512-OPraU50BgQ+cqiXmO9JnJiDP8N7gTB7Pzx9Yk6M+koZuzOvFf+Fd8ff6Qp57OnE65KAYO058IIWj+RWng3Cmiw==
+styled-components@6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-6.0.1.tgz#f4db3195e5e510ff3cd0909b1a7b103f4440cbbc"
+  integrity sha512-6VAlf5A9KZJOnX54becRCLnBFSfeqP+q3raTCdPDPFg4HOy7MNlnWFqAq3sHlQVDdZh5jcsDwK06vTU3NMO6yQ==
   dependencies:
     "@babel/cli" "^7.21.0"
     "@babel/core" "^7.21.0"
