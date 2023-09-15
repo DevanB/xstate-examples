@@ -2167,10 +2167,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@testing-library/cypress@10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@testing-library/cypress/-/cypress-10.0.0.tgz#b424b0af72afacce20ec0b7273328ad18c0e6b5c"
-  integrity sha512-b7dNzDldZmpwl4MmC3UEEW7/X355w8ScOQfJ7RPFHP0eheRkO7qCNfn7YFyq39w5kx9My8/BJiYCeOn5q9LrDQ==
+"@testing-library/cypress@10.0.1":
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/cypress/-/cypress-10.0.1.tgz#15abae0edb83237316ec6d07e152b71a50b38387"
+  integrity sha512-e8uswjTZIBhaIXjzEcrQQ8nHRWHgZH7XBxKuIWxZ/T7FxfWhCR48nFhUX5nfPizjVOKSThEfOSv67jquc1ASkw==
   dependencies:
     "@babel/runtime" "^7.14.6"
     "@testing-library/dom" "^9.0.0"
