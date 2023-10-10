@@ -40,7 +40,7 @@
     "@types/jest": "29.5.5",
     "@types/node": "20.8.4",
     "@types/react": "18.2.27",
-    "@types/react-dom": "18.2.11",
+    "@types/react-dom": "18.2.12",
     "@types/styled-components": "5.1.28",
     "@xstate/graph": "1.4.2",
     "@xstate/test": "0.5.1",
