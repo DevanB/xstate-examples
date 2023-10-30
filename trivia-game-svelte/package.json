@@ -5,7 +5,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-replace": "^5.0.4",
+    "@rollup/plugin-replace": "^5.0.5",
     "lean-he": "2.1.2",
     "postcss": "^8.4.31",
     "postcss-load-config": "^4.0.1",
