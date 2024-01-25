@@ -47,7 +47,7 @@
     "commitizen": "4.3.0",
     "cypress": "13.6.3",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "8.0.3",
+    "husky": "9.0.1",
     "is-ci-cli": "2.2.0",
     "jest-axe": "8.0.0",
     "jest-junit": "16.0.0",
