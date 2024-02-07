@@ -6860,10 +6860,10 @@ xml-name-validator@^4.0.0:
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-4.0.0.tgz#79a006e2e63149a8600f15430f0a4725d1524835"
   integrity sha512-ICP2e+jsHvAj2E2lIHxa5tjXRlKDJo4IdvPvCXbXQGdzSfmSpNVyIKMvoZHjDY9DP0zV17iI85o90vRFXNccRw==
 
-xstate@5.6.0:
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.6.0.tgz#1db0194fc69dc381af837f7b016a7e9fccdf6a9f"
-  integrity sha512-l62p4ZHM/fkGl68574s1dFzFmY8B3BeOff9EqBZbuonTSOXGx1fWTnh4SHSrS8Vhr5wyRT9afqWliMoO6Q+hUQ==
+xstate@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.6.1.tgz#f29329d02a7fec995b3518d1cbccc45d43cdba86"
+  integrity sha512-+/rL6DJk8HT8qIpPvkVZLMgZ3bMxu7PRqe7TKoYGk3O800lj3vyeMOIodefcWEUDlzuKVrcEYnyN7LwyCBRW1g==
 
 y18n@^5.0.5:
   version "5.0.8"
