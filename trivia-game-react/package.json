@@ -30,7 +30,7 @@
     "react-scripts": "5.0.1",
     "styled-components": "6.1.12",
     "tailwind.macro": "1.0.0-alpha.10",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "xstate": "5.15.0"
   },
   "devDependencies": {
