@@ -11,7 +11,7 @@
     "core-js": "3.37.1",
     "lean-he": "2.1.2",
     "tailwindcss": "3.4.6",
-    "vue": "3.4.33",
+    "vue": "3.4.34",
     "xstate": "5.15.0"
   },
   "devDependencies": {
