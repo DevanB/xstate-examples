@@ -3245,7 +3245,7 @@ axe-core@4.9.1, axe-core@^4.3.5:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.9.1.tgz#fcd0f4496dad09e0c899b44f6c4bb7848da912ae"
   integrity sha512-QbUdXJVTpvUTHU7871ppZkdOLBeGUKBQWHkHrvN2V9IQWGMt61zf3B45BtzjxEJzYuj0JBjBZP/hmYS/R9pmAw==
 
-axios@^1.7.4:
+axios@^1.7.7:
   version "1.7.7"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.7.tgz#2f554296f9892a72ac8d8e4c5b79c14a91d0a47f"
   integrity sha512-S4kL7XrjgBmvdGut0sN3yJxqYzrDOnivkBiN0OFs6hLiUam3UPvswUo0kqGyhqUZGEOytHyumEdXsAkgCOUf3Q==
@@ -11017,10 +11017,10 @@ stackframe@^1.1.1:
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.2.0.tgz#52429492d63c62eb989804c11552e3d22e779303"
   integrity sha512-GrdeshiRmS1YLMYgzF16olf2jJ/IzxXY9lhKOskuVziubpTYcYqyOwYeJKzQkwy7uN0fYSsbsC4RQaXf9LCrYA==
 
-start-server-and-test@2.0.7:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/start-server-and-test/-/start-server-and-test-2.0.7.tgz#d88135fafc441ab25c129f73ee39008be05c15e6"
-  integrity sha512-tsOG1QbXKcRmrhCT0SrmmTex+uTjrb0SG8iF9XFmw1Cu8vPbVhER8zR4xkm5LAt1BarM/Dk7Jkfts+h8Rxfb2w==
+start-server-and-test@2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/start-server-and-test/-/start-server-and-test-2.0.8.tgz#0423ed00a7c052c4e74ff6bb0b90878bbd1d7cd9"
+  integrity sha512-v2fV6NV2F7tL1ocwfI4Wpait+IKjRbT5l3ZZ+ZikXdMLmxYsS8ynGAsCQAUVXkVyGyS+UibsRnvgHkMvJIvCsw==
   dependencies:
     arg "^5.0.2"
     bluebird "3.7.2"
@@ -11029,7 +11029,7 @@ start-server-and-test@2.0.7:
     execa "5.1.1"
     lazy-ass "1.6.0"
     ps-tree "1.2.0"
-    wait-on "8.0.0"
+    wait-on "8.0.1"
 
 statuses@2.0.1:
   version "2.0.1"
@@ -11948,12 +11948,12 @@ w3c-xmlserializer@^2.0.0:
   dependencies:
     xml-name-validator "^3.0.0"
 
-wait-on@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/wait-on/-/wait-on-8.0.0.tgz#82e3f334db01cf37beef0d11639d66333b027f03"
-  integrity sha512-fNE5SXinLr2Bt7cJvjvLg2PcXfqznlqRvtE3f8AqYdRZ9BhE+XpsCp1mwQbRoO7s1q7uhAuCw0Ro3mG/KdZjEw==
+wait-on@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/wait-on/-/wait-on-8.0.1.tgz#13c8ec77115517f8fbc2d670521a444201f03f53"
+  integrity sha512-1wWQOyR2LVVtaqrcIL2+OM+x7bkpmzVROa0Nf6FryXkS+er5Sa1kzFGjzZRqLnHa3n1rACFLeTwUqE1ETL9Mig==
   dependencies:
-    axios "^1.7.4"
+    axios "^1.7.7"
     joi "^17.13.3"
     lodash "^4.17.21"
     minimist "^1.2.8"
