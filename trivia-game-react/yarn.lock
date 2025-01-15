@@ -2794,10 +2794,10 @@
     "@webassemblyjs/ast" "1.12.1"
     "@xtuc/long" "4.2.2"
 
-"@xstate/graph@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-3.0.1.tgz#c973a4518e0946ab84cd35acde890e4e07893288"
-  integrity sha512-CeBjygImHbIXrJLaEIT1uj3E0aWqpyxeRkKugpb6oCdMkJECCcCuyuoW8YKSzm42FavXdI6/Udr84+CGiUQU6A==
+"@xstate/graph@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-3.0.2.tgz#1599bc1ab282b8c3e62d7ffc98042818bbd1361a"
+  integrity sha512-UvexSqy8V3LgUa5amm9r/MzQtI/+wHrXAbOBtXKmhdLfMqyfs0N6SlM6R9u6T9AhsYA1U3W1OYARhgUPfXFn4A==
 
 "@xstate/graph@^1.4.1":
   version "1.4.2"
