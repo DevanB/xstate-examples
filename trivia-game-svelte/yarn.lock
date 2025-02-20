@@ -1074,10 +1074,10 @@ svelte@^5.20.1:
     magic-string "^0.30.11"
     zimmerframe "^1.1.2"
 
-tailwindcss@4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.0.6.tgz#c033bfba94d6e3bf70650a2f9fe949f39d3bb191"
-  integrity sha512-mysewHYJKaXgNOW6pp5xon/emCsfAMnO8WMaGKZZ35fomnR/T5gYnRg2/yRTTrtXiEl1tiVkeRt0eMO6HxEZqw==
+tailwindcss@4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.0.7.tgz#b3e26a5dda77651808a873f1b535cc8c39fcb0ae"
+  integrity sha512-yH5bPPyapavo7L+547h3c4jcBXcrKwybQRjwdEIVAd9iXRvy/3T1CC6XSQEgZtRySjKfqvo3Cc0ZF1DTheuIdA==
 
 terser@^5.0.0:
   version "5.14.2"
