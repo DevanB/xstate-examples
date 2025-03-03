@@ -9,7 +9,7 @@
     "lean-he": "2.1.2",
     "postcss": "^8.5.3",
     "postcss-load-config": "^6.0.1",
-    "rollup": "^4.34.8",
+    "rollup": "^4.34.9",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-svelte": "^7.2.2",
     "rollup-plugin-terser": "^7.0.2",
