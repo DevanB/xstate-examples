@@ -1054,10 +1054,10 @@ svelte@^3.12.1:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.59.2.tgz#a137b28e025a181292b2ae2e3dca90bf8ec73aec"
   integrity sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==
 
-svelte@^5.22.6:
-  version "5.22.6"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.22.6.tgz#b27e35b1c29dc9731e569e8a595719c10e4f3bda"
-  integrity sha512-dxHyh3USJyayafSt5I5QD7KuoCM5ZGdIOtLQiKHEro7tymdh0jMcNkiSBVHW+LOA2jEqZEHhyfwN6/pCjx0Fug==
+svelte@^5.23.0:
+  version "5.23.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.23.0.tgz#1f6b224f5cb8cee677bdb6b78fb097933923b82a"
+  integrity sha512-v0lL3NuKontiCxholEiAXCB+BYbndlKbwlDMK0DS86WgGELMJSpyqCSbJeMEMBDwOglnS7Ar2Rq0wwa/z2L8Vg==
   dependencies:
     "@ampproject/remapping" "^2.3.0"
     "@jridgewell/sourcemap-codec" "^1.5.0"
