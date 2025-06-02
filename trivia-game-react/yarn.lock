@@ -2841,10 +2841,10 @@
     "@webassemblyjs/ast" "1.12.1"
     "@xtuc/long" "4.2.2"
 
-"@xstate/graph@3.0.3":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-3.0.3.tgz#56be58caa1dd44e49a648d1a91855686bcc34181"
-  integrity sha512-gp3T/hzLIUZEyKetqfVWnKkpznNrUCyoZiFd1Eqygrrp/p/S9rf4AQwdjwdEtxH3nAk0rgYEXvhMUx4OhETA2Q==
+"@xstate/graph@3.0.4":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@xstate/graph/-/graph-3.0.4.tgz#b77c50b6ad2f186944229598b8a4283c2843840f"
+  integrity sha512-b12RA7E//+7FJVrD09Td+BhHRJbeKZnK+98xXBd+JmccG360xVP1lyzVhUZPgBgwPdmIGBJqhKzmWYJQ9c8ojQ==
 
 "@xstate/graph@^1.4.1":
   version "1.4.2"
