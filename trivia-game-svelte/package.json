@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^7.0.2",
-    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-commonjs": "^28.0.7",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-replace": "^6.0.2",
     "lean-he": "2.1.2",
