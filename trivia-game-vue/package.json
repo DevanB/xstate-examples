@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "3.48.0",
     "lean-he": "2.1.2",
-    "tailwindcss": "4.2.0",
+    "tailwindcss": "4.2.1",
     "vue": "3.5.29",
     "xstate": "5.28.0"
   },
