@@ -7047,10 +7047,10 @@ xml-name-validator@^4.0.0:
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-4.0.0.tgz#79a006e2e63149a8600f15430f0a4725d1524835"
   integrity sha512-ICP2e+jsHvAj2E2lIHxa5tjXRlKDJo4IdvPvCXbXQGdzSfmSpNVyIKMvoZHjDY9DP0zV17iI85o90vRFXNccRw==
 
-xstate@5.30.0:
-  version "5.30.0"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.30.0.tgz#00f47846d3c45409d6154c1ea96da046c4c151d1"
-  integrity sha512-mIzIuMjtYVkqXq9dUzYQoag7b/dF1CBS/yhliuPLfR0FwKPC18HiUivb/crcqY2gknhR8gJEhnppLg6ubQ0gGw==
+xstate@5.31.0:
+  version "5.31.0"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.31.0.tgz#44a2464acbdea20b9381eeed525bb7aca4f9c61c"
+  integrity sha512-5B+0DqC0uNUrcLUEY3pn3iNy+swvK2E0ZpYp5gnV3oxMX5y87vzXkU5YXv9CAtyG5c5FOJ1SzvTWHrwE8fMZNQ==
 
 y18n@^5.0.5:
   version "5.0.8"
