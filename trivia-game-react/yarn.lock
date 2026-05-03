@@ -12781,10 +12781,10 @@ xmlchars@^2.2.0:
   resolved "https://registry.yarnpkg.com/xmlchars/-/xmlchars-2.2.0.tgz#060fe1bcb7f9c76fe2a17db86a9bc3ab894210cb"
   integrity sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==
 
-xstate@5.30.0:
-  version "5.30.0"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.30.0.tgz#00f47846d3c45409d6154c1ea96da046c4c151d1"
-  integrity sha512-mIzIuMjtYVkqXq9dUzYQoag7b/dF1CBS/yhliuPLfR0FwKPC18HiUivb/crcqY2gknhR8gJEhnppLg6ubQ0gGw==
+xstate@5.31.0:
+  version "5.31.0"
+  resolved "https://registry.yarnpkg.com/xstate/-/xstate-5.31.0.tgz#44a2464acbdea20b9381eeed525bb7aca4f9c61c"
+  integrity sha512-5B+0DqC0uNUrcLUEY3pn3iNy+swvK2E0ZpYp5gnV3oxMX5y87vzXkU5YXv9CAtyG5c5FOJ1SzvTWHrwE8fMZNQ==
 
 xtend@^4.0.2:
   version "4.0.2"
