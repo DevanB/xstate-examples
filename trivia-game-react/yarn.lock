@@ -3742,7 +3742,7 @@ blob-util@^2.0.2:
   resolved "https://registry.yarnpkg.com/blob-util/-/blob-util-2.0.2.tgz#3b4e3c281111bb7f11128518006cdc60b403a1eb"
   integrity sha512-T7JQa+zsXXEa6/8ZhHcQEW1UFfVM49Ts65uBkFL6fz2QmrElqmbajIDJvuA0tEhRe5eIjpV9ZF+0RfZR9voJFQ==
 
-bluebird@3.7.2, bluebird@^3.5.5, bluebird@^3.7.2:
+bluebird@^3.5.5, bluebird@^3.7.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
@@ -11360,13 +11360,12 @@ stackframe@^1.1.1:
   resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.2.0.tgz#52429492d63c62eb989804c11552e3d22e779303"
   integrity sha512-GrdeshiRmS1YLMYgzF16olf2jJ/IzxXY9lhKOskuVziubpTYcYqyOwYeJKzQkwy7uN0fYSsbsC4RQaXf9LCrYA==
 
-start-server-and-test@3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/start-server-and-test/-/start-server-and-test-3.0.5.tgz#b8b7a132ff192934975df90a87549cb40209fbba"
-  integrity sha512-2SvI2UR+rVM4FQ3GqEnjjfVATln6JgJGsZjRRyAqgl1EI6fJFH5zVCawqJLcmU9vBxwI0ZX9i3M+GFpY+sxWcw==
+start-server-and-test@3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/start-server-and-test/-/start-server-and-test-3.0.6.tgz#e4861f26ecad38bf72fcd1e388d53536d7635cf4"
+  integrity sha512-rgEVH+MKOCVB63R50WS1DXD/fJ4A07aGw/9J6MxkO88ZPOewa4VukGEuayinTdt+feKefeynw/iDJBzn+tW4Jw==
   dependencies:
     arg "5.0.2"
-    bluebird "3.7.2"
     check-more-types "2.24.0"
     debug "4.4.3"
     execa "5.1.1"
