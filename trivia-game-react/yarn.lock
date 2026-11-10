@@ -3459,11 +3459,6 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-arch@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/arch/-/arch-2.2.0.tgz#1bc47818f305764f23ab3306b0bfc086c5a29d11"
-  integrity sha512-Of/R0wqp83cgHozfIYLbBMnej79U/SVGOOyuB3VVFv1NRM/PSFMK12x9KVtiYzJqmnU5WR2qp0Z5rHb7sWGnFQ==
-
 arch@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/arch/-/arch-3.0.0.tgz#a44e7077da4615fc5f1e3da21fbfc201d2c1817c"
@@ -4365,15 +4360,6 @@ cli-width@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-3.0.0.tgz#a2f48437a2caa9a22436e794bf071ec9e61cedf6"
   integrity sha512-FxqpkPPwu1HjuN93Omfm4h8uIanXofW0RxVEW3k5RKx+mJJYSthzNhp32Kzxxy3YAEZ/Dc/EWN1vZRY0+kOhbw==
-
-clipboardy@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/clipboardy/-/clipboardy-3.0.0.tgz#f3876247404d334c9ed01b6f269c11d09a5e3092"
-  integrity sha512-Su+uU5sr1jkUy1sGRpLKjKrvEOVXgSgiSInwa/qeID6aJ07yh+5NWc3h2QfjHjBnfX4LhtFcuAWKUsJ3r+fjbg==
-  dependencies:
-    arch "^2.2.0"
-    execa "^5.1.1"
-    is-wsl "^2.2.0"
 
 cliui@^7.0.2:
   version "7.0.4"
@@ -5979,7 +5965,7 @@ execa@4.1.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@5.1.1, execa@^5.0.0, execa@^5.1.1:
+execa@5.1.1, execa@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
   integrity sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==
@@ -11068,10 +11054,10 @@ serve-static@1.16.2:
     parseurl "~1.3.3"
     send "0.19.0"
 
-serve@14.2.6:
-  version "14.2.6"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-14.2.6.tgz#b5e520dfda9b1ed3b824a8e8d4fd6f69e4c6944c"
-  integrity sha512-QEjUSA+sD4Rotm1znR8s50YqA3kYpRGPmtd5GlFxbaL9n/FdUNbqMhxClqdditSk0LlZyA/dhud6XNRTOC9x2Q==
+serve@14.2.7:
+  version "14.2.7"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-14.2.7.tgz#53fc1cf9cf89772c15d2b507372a0f88994aa060"
+  integrity sha512-mTJ9LAyBwHhO2T/PNaI0oWxmKl7FFuJ+ZEHKL1rRO69fWV1Y4qcsFB3gpuD2HfHvJCwvJq5ChibjjAGe0wc0vw==
   dependencies:
     "@zeit/schemas" "2.36.0"
     ajv "8.18.0"
@@ -11079,10 +11065,10 @@ serve@14.2.6:
     boxen "7.0.0"
     chalk "5.0.1"
     chalk-template "0.4.0"
-    clipboardy "3.0.0"
     compression "1.8.1"
     is-port-reachable "4.0.0"
     serve-handler "6.1.7"
+    tinyclip "^0.1.12"
     update-check "1.5.4"
 
 set-function-length@^1.2.1:
@@ -11878,6 +11864,11 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tinyclip@^0.1.12:
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/tinyclip/-/tinyclip-0.1.15.tgz#db35eaa2bd5fe627b3ef2ea38d8b0407f2bc2def"
+  integrity sha512-uo33abH+Ays0xYaDysoBt494Hb3hsEczMpcC0MwFl773pazORx4fmvKhclhR1wonUbB6vvpRsvVMwnhfqeMc+A==
 
 tinyexec@^1.3.1:
   version "1.3.1"
