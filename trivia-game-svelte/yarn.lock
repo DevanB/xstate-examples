@@ -23,12 +23,13 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@fullhuman/postcss-purgecss@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-9.0.0.tgz#e9461c16b15846b45c6cf8dbc0b7afd7f371acc9"
-  integrity sha512-huH2MUJD9R+V8vWkfCctSEwksQGQqM+u2ilJqG08W2I7KBev/047i8DSjrWDVUQb+w1ws6s8D1oZkEVsrf77/w==
+"@fullhuman/postcss-purgecss@^9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-9.1.0.tgz#1a8ea215e80a29959b2006d4d3e64590558e7bd6"
+  integrity sha512-x3LtKP0P0CDrrENkcdCkMt8DsIjRd4YIT1hNdJgyCt/qTv1Ay0a8uWNWnrrwv+EAw9KBEKwbU4uumSy3BL0DyA==
   dependencies:
-    purgecss "^9.0.0"
+    fast-glob "^3.3.3"
+    purgecss "^9.1.0"
 
 "@jridgewell/gen-mapping@^0.3.0":
   version "0.3.2"
@@ -728,7 +729,7 @@ postcss@^8.5.29, postcss@^8.5.32:
     picocolors "^1.1.1"
     source-map-js "^1.2.2"
 
-purgecss@^9.0.0:
+purgecss@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/purgecss/-/purgecss-9.1.0.tgz#827f12e2ef9244e206c1407d49548614ec8fc29d"
   integrity sha512-KUuJWwloltnB1NhRFAjpkC9URvAenZWpKwUjpg/+cYPQGtVj65Iw7XpiF9NkPGBEPhJu9Rw5DbCn7NFlIAg8OQ==
