@@ -946,10 +946,10 @@ svelte@^3.12.1:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.59.2.tgz#a137b28e025a181292b2ae2e3dca90bf8ec73aec"
   integrity sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==
 
-svelte@^5.58.0:
-  version "5.58.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.58.0.tgz#28214cf88029be7db781ff6e5dc3240ca20c8375"
-  integrity sha512-rOMKTD9WP2C6ahWDmntey4p+JqUxtup1w9G3KdVuTbNGHi5u97iMw0CIc8a+F5rZtiH7x98kVniDlBRRR5e98w==
+svelte@^5.59.1:
+  version "5.59.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.59.1.tgz#4bbc4341e76021dcbf215012c6d97b779d0c3ce4"
+  integrity sha512-ADG20W/jYSQut/79AavRRfbXQYebFKMVWT/xAbjVVZfZA4XzIoFfcpanEfYTyN+uWQUaPP+nstFx4qVKwEVnQQ==
   dependencies:
     "@jridgewell/remapping" "^2.3.5"
     "@jridgewell/sourcemap-codec" "^1.6.0"
